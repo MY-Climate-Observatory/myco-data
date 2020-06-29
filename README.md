@@ -14,9 +14,13 @@ This folder contains climate science data (e.g. temperature, rainfall, etc.).
 
 This folder contains economy, industry and finance data related to sustainability.
 
+**CLIMATExGovernment**
+
+This folder contains policies and government official data related to sustainability.
+
 **CLIMATExSociety**
 
-This folder contains policies and societal interactions data related to sustainability.
+This folder contains societal interactions and community engagement data related to sustainability.
 
 ## Contributing Guide
 
