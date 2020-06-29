@@ -24,5 +24,5 @@ This folder contains societal interactions and community engagement data related
 
 ## Contributing Guide
 
-To contribute, fork this repo and submit a pull requests creating a folder within the 3 main data categories. Name your folder the climate metric you want to work on.
+To contribute, fork this repo and submit a pull requests creating a folder within the 4 main data categories. Name your folder the climate metric you want to work on.
 Please refer to the main [contributing guidelines](https://github.com/MY-Climate-Observatory/myco-data/blob/master/CONTRIBUTING.md) for more styling and committing guidance. 
