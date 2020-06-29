@@ -20,4 +20,4 @@ This folder contains policies and societal interactions data related to sustaina
 
 ## Contributing Guide
 
-To contribute, fork this repo and submit a pull requests creating a folder within the 3 main data category. Name your folder the climate metric you want to work on.
+To contribute, fork this repo and submit a pull requests creating a folder within the 3 main data categories. Name your folder the climate metric you want to work on.
