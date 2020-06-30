@@ -16,7 +16,7 @@ This folder contains economy, industry and finance data related to sustainabilit
 
 **CLIMATExGovernment**
 
-This folder contains policies and government official data related to sustainability.
+This folder contains policies and governmental data related to sustainability.
 
 **CLIMATExSociety**
 
