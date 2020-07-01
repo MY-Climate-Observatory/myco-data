@@ -27,6 +27,7 @@ Please include the following information in your README.md under "Metadata" usin
 * Purpose of the data
 * Time period of creation
 * Creator/author/publishing entity of the data
+* Contributor of the data (you!)
 * Detailed sources (links) of the data involved in the creation of the dataset
 * Data usage and licensing declaration (links to original license)
 * File size
