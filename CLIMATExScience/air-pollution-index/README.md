@@ -57,7 +57,7 @@ This dataset is cleaned and organized from March 2020 - June 2020.
 
 ### Contributor
 
-@xd-ooi
+@XD-Ooi
 
 ### Data Source
 Releasing entities: Malaysia's Ministry of Water, Land and Natural Resources (KATS), and Department of Environment (DOE) 
