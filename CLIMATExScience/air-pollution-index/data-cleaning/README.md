@@ -35,3 +35,8 @@ To reproduce the data cleaning process of this metric, please run the scripts in
 4. version-update-2.py
 
 Please note that this metric will be updated periodically as the original source release more datasets.
+
+## Original repository
+
+These scripts were originally created [here](https://github.com/XD-Ooi/MY-Climate-Observatory). The scripts are duplicates of the original, and the duplication has the consent of the original author.
+
