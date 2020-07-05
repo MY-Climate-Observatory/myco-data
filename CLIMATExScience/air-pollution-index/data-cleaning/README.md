@@ -34,4 +34,4 @@ To reproduce the data cleaning process of this metric, please run the scripts in
 3. version-update-1.py
 4. version-update-2.py
 
-Please note that this metric will be update periodically as the original source release more datasets.
+Please note that this metric will be updated periodically as the original source release more datasets.
