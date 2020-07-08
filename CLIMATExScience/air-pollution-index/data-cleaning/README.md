@@ -18,6 +18,7 @@ To reproduce the data cleaning process of this metric, please run the scripts in
     * 2017-Putrajaya.py
     * 2017-Sabah.py
     * 2017-Sarawak.py
+    * 2017-Terengganu.py
     * 2018-Johor.py
     * 2018-Melaka.py
     * 2018-NS.py
