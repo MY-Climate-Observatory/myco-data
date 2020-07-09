@@ -2,7 +2,7 @@
 
 To reproduce the data cleaning process of this metric, please run the scripts in the following order:
 
-1. These scripts clean the data from their sources simultaneously, so they can be run in any order:
+1. These scripts clean the data from their sources separately, and they can be run in any order:
     * 20051001-20150610.py
     * 20150611-20151231.py
     * 20160101-20161231.py 
@@ -34,6 +34,16 @@ To reproduce the data cleaning process of this metric, please run the scripts in
 2. data-merge.py
 3. version-update-1.py
 4. version-update-2.py
+5. These scripts clean the data separately, and they can run in any order:
+    * 2019-Melaka.py
+    * 2019-NS.py
+    * 2019-Pahang.py
+    * 2019-Penang.py
+    * 2019-Perak.py
+    * 2019-Perlis.py
+    * 2019-Sabah.py
+    * 2019-Sarawak.py
+    * 2019-Terengganu.py
 
 Please note that this metric will be updated periodically as the original source release more datasets.
 
