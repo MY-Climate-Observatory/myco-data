@@ -8,7 +8,7 @@ Welcome to MYCO's data repository. In this folder, we store all Malaysia's clima
 
 This folder contains climate science data (e.g. temperature, rainfall, etc.).
 
-* Air Pollution Index (pending transfer)
+* Air pollution index
 
 **CLIMATExIndustry**
 
@@ -21,6 +21,8 @@ This folder contains policies and governmental data related to sustainability.
 **CLIMATExSociety**
 
 This folder contains societal interactions and community engagement data related to sustainability.
+
+* Environmental departments' twitter engagement
 
 ## Contributing Guide
 
