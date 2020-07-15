@@ -10,7 +10,8 @@ import pandas as pd
 from plotly.offline import plot
 import plotly.graph_objects as go
 
-df = pd.read_csv(r"filepath/filename", sep = ";")
+# Get the file from us
+df = pd.read_csv(https://www.dropbox.com/s/u0ymg0ufne0an60/api-20200713.csv?dl=1", sep = ";")
 
 # Make the selection
 selected_area = "Sandakan"
