@@ -1,3 +1,3 @@
 # CLIMATExSociety
 
-To be updated.
+* Environmental departments' twitter engagement
