@@ -9,8 +9,8 @@ import pandas as pd
 import plotly.graph_objects as go
 from plotly.offline import plot
 
-#the data can be retrived from our github repo
-df = pd.read_csv("https://www.dropbox.com/s/84hol3lm6tdehe7/Aggregate-API.csv?dl=1", sep = ";")
+#the data can be retrived from us
+df = pd.read_csv("https://www.dropbox.com/s/u0ymg0ufne0an60/api-20200713.csv?dl=1", sep = ";")
 
 selected_area = "Sandakan" #any area
 df_temp = df.loc[(df.Area == selected_area),
