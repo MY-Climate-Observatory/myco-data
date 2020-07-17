@@ -53,7 +53,7 @@ Department of Environment right [here](https://www.doe.gov.my/portalv1/wp-conten
 
 ### Terms of Use
 
-Unfortunately, this policy was published in 2002, and the publisher has bounded very strict data usage terms on the use of the content of this policy. Our team 
+Unfortunately, the publisher has set very strict data usage terms on the use of the content of this policy. Our team 
 is currently reaching out to the original publishers for written permission.
 
 
