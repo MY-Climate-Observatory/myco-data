@@ -28,4 +28,4 @@ df_total = df_total.drop(columns = ["Unnamed: 0"])
 
 # Making sure our df won't have the column "Unnamed:0" when we load it again
 # Also changing the way we name the dataset to reflect changes
-df.to_csv(r"filepath\api-20200713.csv", sep = ";", index = False)
+df_total.to_csv(r"filepath\api-20200713.csv", sep = ";", index = False)
