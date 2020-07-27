@@ -1,5 +1,6 @@
 # Air Pollution Index 
-### Indeks Pencemaran Udara
+
+**Indeks Pencemaran Udara**
 
 The Air Pollution Index (API) indicates the air quality status of a particular area. Normally, the indicator is calculated based on the average concentration of 6 air pollutant parameters: sulphur dioxide, nitrogen dioxide, carbon monoxide, ozone, PM2.5, and PM10. Each is measured at different period as they have different human-acceptable exposure periods. The air pollutant with the highest average concentration over a period of time will determine the API value. The API calculation in Malaysia is based on Pollution Standard Index (PSI) that is recognized internationally. 
 
@@ -93,7 +94,7 @@ Data and information are subject to the Malaysian Government Open Data Terms of 
 
 108 MB
 
-## Data Creation Process
+## Data Organizing Process
 
 1. Data downloaded from original linked and cleaned separately. Scripts for the data cleaning process of each dataframe can be found in the `data-cleaning` folder.
 2. Merge and combine all dataframes. Scripts also in the `data-cleaning` folder.
