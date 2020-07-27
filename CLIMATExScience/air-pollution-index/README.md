@@ -48,8 +48,7 @@ understanding the overall trend of Malaysia's air quality over the past 10 years
 
 ### Purpose 
 
-API are used as the ambient air quality measurement in Malaysia. The actual concentration of air pollutants are not published so this is the current available data 
-for us to assess the air quality of Malaysia.
+API are used as the ambient air quality measurement in Malaysia. The actual concentration of air pollutants are not published so this is the current available data for us to assess the air quality of Malaysia.
 
 ### Time period of creation
 
@@ -61,6 +60,7 @@ This dataset is cleaned and organized from March 2020 - June 2020.
 
 ### Data Source
 Releasing entities: Malaysia's Ministry of Water, Land and Natural Resources (KATS), and Department of Environment (DOE) 
+
 Accessed on: [data.gov.my](http://www.data.gov.my/). 
 
 The original links of the datasets are as listed below (we tried to keep the title as close to the original as possible):
