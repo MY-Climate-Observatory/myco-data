@@ -1,4 +1,4 @@
 # CLIMATExScience
 
 * Air Pollution Index (API)
-* Rainfall
+* Rainfall (monthly average, national aggregate)
