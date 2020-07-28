@@ -53,8 +53,11 @@ Department of Environment right [here](https://www.doe.gov.my/portalv1/wp-conten
 
 ### Terms of Use
 
-Unfortunately, the publisher has set very strict data usage terms on the use of the content of this policy. Our team 
-is currently reaching out to the original publishers for written permission.
+MYCO has received written permission from The Ministry of Environment and Water (Kementerian Alam Sekitar dan Air, KASA) on 27 July 2020 to share our analysis of the data. The specific terms of use of this data is as followed:
+
+`No part of this publishing may be reproduced or transmitted in any form or by any means, electionic or mechanical, including photocopy, without permission in writing from the Publisher.`
+
+If you want to use this document for your own analysis, please reach out to KASA for written permission.
 
 
 
