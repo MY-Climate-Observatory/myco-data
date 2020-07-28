@@ -5,9 +5,9 @@
 Rainfall is a key climate indicator that gives us context to understand our climate system. As a tropical nation, Malaysia receives on average 3,000 mm of 
 rainfall annually. The rainfall patterns are relatively constant throughout the year, with two peaks around the monsoon period.
 
-Currently there are multiple sources that provides rainfall data at different granularity. We decided to first share the World Bank's data at a national level
-while further investigating the collection methodologies by other agencies that offers smaller data granularity. If you need to look at real time rainfall 
-data, you can access to Malaysia's [The Official Web of Public Infobanjir](http://forecast.water.gov.my/index.php/hujan/?lang=en)
+The data used for our visualization can be accessed [here](https://www.dropbox.com/s/lwgit0vr0v5mijb/rainfall.csv?dl=0).
+
+Currently there are multiple sources that provides rainfall data at different granularity. We decided to first share the World Bank's data at a national level while further investigating the collection methodologies by other agencies that offers smaller data granularity. If you need to look at real time rainfall data, you can access to Malaysia's [The Official Web of Public Infobanjir](http://forecast.water.gov.my/index.php/hujan/?lang=en)
 
 ## Data Format 
 
