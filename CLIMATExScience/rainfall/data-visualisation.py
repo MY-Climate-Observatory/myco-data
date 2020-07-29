@@ -47,7 +47,7 @@ def by_month(selected_month, df):
     return fig
 
 def main():
-    df = pd.read_csv(r"C:\Users\Xiandi\Downloads\rainfall.csv")
+    df = pd.read_csv(r"filepath\rainfall.csv")
     df.index = pd.DatetimeIndex(df["Datetime"])
     # Imagine that there is a code to choose between either one here
     selected_year = 2016
