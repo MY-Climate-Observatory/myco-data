@@ -7,7 +7,9 @@ rainfall annually. The rainfall patterns are relatively constant throughout the 
 
 The data used for our visualization can be accessed [here](https://www.dropbox.com/s/lwgit0vr0v5mijb/rainfall.csv?dl=0).
 
-Currently there are multiple sources that provides rainfall data at different granularity. We decided to first share the World Bank's data at a national level while further investigating the collection methodologies by other agencies that offers smaller data granularity. If you need to look at real time rainfall data, you can access to Malaysia's [The Official Web of Public Infobanjir](http://forecast.water.gov.my/index.php/hujan/?lang=en)
+Currently there are multiple sources that provides rainfall data at different granularity. We decided to first share the World Bank's data at a national level while further investigating the collection methodologies by other agencies that offers smaller data granularity. Please note that World Bank gives Climatic Research Unit Time Series data while the National Hydraulic Research Institute of Malaysia (NHRIM) gives a different measurement based on Community Climate System Model (CCSM). Both sources returns different level of rainfall estimation and we choose to display World Bank's data as it agrees with the common agreed fact that the average rainfall in Malaysia is around 2000 - 2500 mm per annum.
+
+If you need to look at real time rainfall data, you can access to Malaysia's [The Official Web of Public Infobanjir](http://forecast.water.gov.my/index.php/hujan/?lang=en)
 
 ## Data Format 
 
@@ -25,6 +27,10 @@ Display the historical rainfall of Malaysia.
 ### Time period of creation
 
 This dataset is cleaned and organized in July 2020.
+
+### Contributor
+
+@XD-OOi, Hooi Yee Lim
 
 ### Data Source
 
