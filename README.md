@@ -15,6 +15,8 @@ This folder contains climate science data (e.g. temperature, rainfall, etc.).
 
 This folder contains economy, industry and finance data related to sustainability.
 
+* `In Progress` Feed-in tariff Rates for Renewables 
+
 **CLIMATExGovernment**
 
 This folder contains policies and governmental data related to sustainability.
