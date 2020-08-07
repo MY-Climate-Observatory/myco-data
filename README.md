@@ -28,8 +28,6 @@ This folder contains policies and governmental data related to sustainability.
 
 This folder contains societal interactions and community engagement data related to sustainability.
 
-* `In Progress` Malaysian Environmental Departments' Twitter Engagement
-
 ## Contributing Guide
 
 To contribute, fork this repo and submit a pull requests creating a folder within the 4 main data categories. Name your folder the climate metric you want to work on.
