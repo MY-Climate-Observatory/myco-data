@@ -7,6 +7,8 @@ that can deflect the current trajectory to a more sustainable pathway towards a 
 
 This Roadmap will be implemented from 2018 leading up to 2030, assuming that all relevant stakeholders will play their roles effectively to support the objectives of this Roadmap.
 
+Update *22 Sep 2020* : We are currently exploring text-as-data methodology commonly performed in comparative policy analysis.
+
 ## Data Format 
 In progress.
 
