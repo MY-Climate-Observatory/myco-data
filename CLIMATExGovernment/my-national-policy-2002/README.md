@@ -40,7 +40,7 @@ Conduct textual analysis on our national environmental policies to identify the 
 
 ### Time Period of Creation
 
-This dataset is cleaned and organized from July 2020 - Present.
+Coming soon.
 
 ### Contributor
 
