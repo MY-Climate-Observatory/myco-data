@@ -16,8 +16,7 @@ In progress.
 
 ### Purpose
 
-Conduct textual analysis on our national environmental policies to identify the actors within the policy implementation process, specifically "what was done to whom."
-
+Conduct textual analysis on our national environmental policies to identify the actors within the policy implementation process, specifically "what was done to whom." However, such a goal has to be supported with more data. For now, we will be focusing on the preprocessing of the data into suitable corpus.
 ### Time Period of Creation
 
 This dataset is cleaned and organized from July 2020 - Present.
