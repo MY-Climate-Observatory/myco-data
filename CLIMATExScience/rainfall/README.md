@@ -30,7 +30,7 @@ This dataset is cleaned and organized in July 2020.
 
 ### Contributor
 
-@XD-OOi, Hooi Yee Lim
+@XD-OOi, @HooiYee-Lim
 
 ### Data Source
 
