@@ -77,7 +77,7 @@ def clean(text):
     return text
 
 def main():    
-    file_name = r"C:\Users\Xiandi\Desktop\Python\Malaysia-Roadmap-Towards-Zero-Single-Use-Plastics-2018-20302.pdf"
+    file_name = r"filepath\Malaysia-Roadmap-Towards-Zero-Single-Use-Plastics-2018-20302.pdf"
     extract_pdf(file_name)
 
 if __name__ == "__main__":
