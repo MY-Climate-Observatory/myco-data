@@ -28,12 +28,19 @@ import pickle
 def extract_pdf(file_name):
     """
     file_name: the downloaded pdf file of the Roadmap
-    output: a dictionary of the extracted text organized by page
+    output: dataframes of corpus and document-term matrix
     
-    This function takes the given pdf file and extract the text from each page then store it in the 
-    form of dictionary.
+    This function takes the given pdf file, extracts the text from each page,
+    and organizes them into word corpus and document-term matrix.    
+    """
     
     """
+    The pdf extraction code is modified from the following source:
+        Title: Chapter 15 Working with PDF and Word Documents, Automate the Boring Stuff with Python 
+        Author: Al Sweigart
+        Date: 2015
+        Availability: https://automatetheboringstuff.com/2e/chapter15/
+    """ 
     # Read the pdf file
     pdf_object = open(file_name, "rb")
     read_pdf = PyPDF2.PdfFileReader(pdf_object)
@@ -46,6 +53,13 @@ def extract_pdf(file_name):
         pdf_dict[i] = pdf_page.extractText()
     # now we have a dictionary of page number: one large chunk of text in a list
     
+    """
+    The data cleaning process is modified from the following source:
+        Title: 1-Data-Cleaning, NLP in Python Tutorial
+        Author: Alice Zhao
+        Date: 2018
+        Availability: https://github.com/adashofdata/nlp-in-python-tutorial/blob/master/1-Data-Cleaning.ipynb
+    """
     # transform the dictionary into pandas dataframe
     data = pd.DataFrame.from_dict(pdf_dict, orient = "index")
     data.columns = ["page_content"]     
@@ -67,17 +81,32 @@ def extract_pdf(file_name):
     return dtm
     
 def clean(text):
+    """
+    text: a string object
+    output: the cleaned string object
+    
+    The function performs basic text cleaning operations including making text
+    lower case, removing non-sensical text, removing puctuation, and
+    removing words containing numbers.
+    """
+    """
+    The data cleaning process is modified from the following source:
+        Title: 1-Data-Cleaning, NLP in Python Tutorial
+        Author: Alice Zhao
+        Date: 2018
+        Availability: https://github.com/adashofdata/nlp-in-python-tutorial/blob/master/1-Data-Cleaning.ipynb
+    """    
     text = text.lower()
     text = re.sub("\n", "", text)
     text = re.sub("\[.*?\]", " ", text)
     text = re.sub("[%s]" % re.escape(string.punctuation), "", text)
     text = re.sub("\w*\d\w*", "", text)
-    text = re.sub("[‘’“”…]", " ", text)
-    text = re.sub("[˜˚˛˝˙œł]", " ", text)
+    text = re.sub("[‘’“”…ł]", " ", text)
+    text = re.sub("[˜˚˛˝˙œ™]", "", text)
     return text
 
 def main():    
-    file_name = r"filepath\Malaysia-Roadmap-Towards-Zero-Single-Use-Plastics-2018-20302.pdf"
+    file_name = r"C:\Users\Xiandi\Desktop\Python\Malaysia-Roadmap-Towards-Zero-Single-Use-Plastics-2018-20302.pdf"
     extract_pdf(file_name)
 
 if __name__ == "__main__":
