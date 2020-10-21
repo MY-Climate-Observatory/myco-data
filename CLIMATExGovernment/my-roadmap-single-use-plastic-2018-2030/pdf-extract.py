@@ -8,6 +8,18 @@ The source link of the pdf can be found in the README.md.
 
 Credits to automatetheboringstuff.com and Alice Zhao from https://github.com/adashofdata/nlp-in-python-tutorial
 
+The pdf extraction code is modified from the following source:
+    Title: Chapter 15 Working with PDF and Word Documents, Automate the Boring Stuff with Python 
+    Author: Al Sweigart
+    Date: 2015
+    Availability: https://automatetheboringstuff.com/2e/chapter15/
+
+The data cleaning process is modified from the following source:
+    Title: 1-Data-Cleaning, NLP in Python Tutorial
+    Author: Alice Zhao
+    Date: 2018
+    Availability: https://github.com/adashofdata/nlp-in-python-tutorial/blob/master/1-Data-Cleaning.ipynb
+
 Note: 
 This method is suitable only if you are extracting only the text from a text-based pdf.
 If your pdf is a scanned document, then you would have to convert the pdf into some image file
@@ -33,14 +45,6 @@ def extract_pdf(file_name):
     This function takes the given pdf file, extracts the text from each page,
     and organizes them into word corpus and document-term matrix.    
     """
-    
-    """
-    The pdf extraction code is modified from the following source:
-        Title: Chapter 15 Working with PDF and Word Documents, Automate the Boring Stuff with Python 
-        Author: Al Sweigart
-        Date: 2015
-        Availability: https://automatetheboringstuff.com/2e/chapter15/
-    """ 
     # Read the pdf file
     pdf_object = open(file_name, "rb")
     read_pdf = PyPDF2.PdfFileReader(pdf_object)
@@ -53,13 +57,6 @@ def extract_pdf(file_name):
         pdf_dict[i] = pdf_page.extractText()
     # now we have a dictionary of page number: one large chunk of text in a list
     
-    """
-    The data cleaning process is modified from the following source:
-        Title: 1-Data-Cleaning, NLP in Python Tutorial
-        Author: Alice Zhao
-        Date: 2018
-        Availability: https://github.com/adashofdata/nlp-in-python-tutorial/blob/master/1-Data-Cleaning.ipynb
-    """
     # transform the dictionary into pandas dataframe
     data = pd.DataFrame.from_dict(pdf_dict, orient = "index")
     data.columns = ["page_content"]     
