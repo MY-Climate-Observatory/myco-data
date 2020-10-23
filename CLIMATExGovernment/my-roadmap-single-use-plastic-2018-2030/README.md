@@ -5,21 +5,33 @@ in jointly addressing single-use plastics pollution in Malaysia."
 According to its publishing entity, Ministry of Energy, Science, Technology, Environment & Climate Change (MESTECC), the Roadmap "is envisaged to deploy actions 
 that can deflect the current trajectory to a more sustainable pathway towards a cleaner and healthier environment by 2030."
 
-This Roadmap will be implemented from 2018 leading up to 2030, assuming that all relevant stakeholders will play their roles effectively to support the objectives of this Roadmap.
-
-Update *18 Oct 2020* : We are currently exploring text-as-data methodology commonly performed in comparative policy analysis. As the data for a single policy is insufficient for a full analysis, our analysis only serves as exploratory efforts to establish the methodology that we could possibly apply to other documents.
+This Roadmap will be implemented from 2018 leading up to 2030, assuming that all relevant stakeholders will play their roles effectively to support the objectives of this Roadmap. You can access to the data used for the analysis shared in this repository here ([corpus](https://www.dropbox.com/s/xtbbl1htsvlm6gy/MRZSUP-corpus.csv), [document-term matrix](https://www.dropbox.com/s/f0zkugvwse4f6d8/MRZSUP-dtm.csv)). 
 
 ## Data Format 
-In progress.
+For the text corpus,
+
+| Variable Name | Variable Type | Description | Unit | Example |
+| :-----------: | :-----------: | :---------: | :--: | :-----: |
+| Primary Key | `integer` | Document Page | None | `"12311"`|
+| page_content | `string` | Content on each page of the policy document | None | `"by cleaner and healthier ..."`|
+
+For the document-term matrix,
+
+| Variable Name | Variable Type | Description | Unit | Example |
+| :-----------: | :-----------: | :---------: | :--: | :-----: |
+| Primary Key | `integer` | Document Page | None | `"12311"`|
+| *Vocabulary* | `integer` | Dummy indicating if the vocabulary appeared in the particular page | None | `"1", "0"`|
+| ... | `integer` | Dummy indicating if the vocabulary appeared in the particular page | None | `"1", "0"`|
 
 ## Meta Data
 
 ### Purpose
 
-Conduct textual analysis on our national environmental policies to identify the actors within the policy implementation process, specifically "what was done to whom." However, such a goal has to be supported with more data. For now, we will be focusing on the preprocessing of the data into suitable corpus.
+Conduct textual analysis on our national environmental policies to identify the overall topic framing. 
+
 ### Time Period of Creation
 
-This dataset is cleaned and organized from July 2020 - Present.
+This dataset is cleaned and organized from July 2020 - October 2020.
 
 ### Contributor
 
