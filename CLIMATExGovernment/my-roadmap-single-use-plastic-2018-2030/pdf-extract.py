@@ -75,6 +75,10 @@ def extract_pdf(file_name):
     dtm.to_pickle("dtm.pkl")
     data_clean.to_pickle("data_clean.pkl")
     pickle.dump(cv, open("cv.pkl", "wb"))
+    
+    # export the dataframe 
+    data_clean.to_csv("MRZSUP-corpus.csv")
+    dtm.to_csv("MRZSUP-dtm.csv")
     return dtm
     
 def clean(text):
