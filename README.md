@@ -20,7 +20,7 @@ This folder contains economy, industry and finance data related to sustainabilit
 This folder contains policies and governmental data related to sustainability.
 
 * `In Progress` Malaysia National Policy on the Environment 2002
-* `In Progress` Malaysia Roadmap towards Zero Single-Use Plastic 2018-2030
+* Malaysia Roadmap towards Zero Single-Use Plastic 2018-2030
 
 **CLIMATExSociety**
 
