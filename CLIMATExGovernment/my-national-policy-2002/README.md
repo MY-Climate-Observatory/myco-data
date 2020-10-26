@@ -36,11 +36,11 @@ In progress.
 
 ### Purpose 
 
-Conduct textual analysis on our national environmental policies to identify the actors within the policy implementation process, specifically "*what* was done to *whom*." 
+Conduct textual analysis on our national environmental policies.  
 
 ### Time Period of Creation
 
-Coming soon.
+Oct 2020 - Present
 
 ### Contributor
 
