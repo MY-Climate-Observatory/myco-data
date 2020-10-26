@@ -27,7 +27,7 @@ For the document-term matrix,
 
 ### Purpose
 
-Conduct textual analysis on our national environmental policies to identify the overall topic framing. 
+Conduct textual analysis on our national environmental policies. 
 
 ### Time Period of Creation
 
