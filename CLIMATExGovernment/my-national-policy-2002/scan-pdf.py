@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-30 Oct 2020
+2 Nov 2020
 Author: Xiandi Ooi
 
 We will convert the pdf into image page by page. 
@@ -14,8 +14,6 @@ import os
 import pandas as pd
 import re
 import string
-from sklearn.feature_extraction.text import CountVectorizer
-import pickle
 
 def scan_pdf(inputfile):
     # converting the pdf file to image
@@ -47,22 +45,13 @@ def scan_pdf(inputfile):
     # clean the data
     data_clean = pd.DataFrame(data.page_content.apply(lambda x:clean(x)))
     
-    # transforming the corpus into a document-term matrix
-    cv = CountVectorizer(stop_words="english")
-    data_cv = cv.fit_transform(data_clean.page_content)
-    dtm = pd.DataFrame(data_cv.toarray(), columns=cv.get_feature_names())
-    dtm.index = data_clean.index  
-    
     # save the text objects aside
-    dtm.to_pickle("das-dtm.pkl")
     data_clean.to_pickle("das-corpus.pkl")
-    pickle.dump(cv, open("das-cv.pkl", "wb"))
     
     # export the dataframe 
     data_clean.to_csv("DAS-corpus.csv")
-    dtm.to_csv("DAS-dtm.csv")
     
-    return dtm
+    return data_clean
 
 def clean(text):
     """
