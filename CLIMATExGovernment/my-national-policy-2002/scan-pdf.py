@@ -16,6 +16,14 @@ import re
 import string
 
 def scan_pdf(inputfile):
+    """
+    inputfile: the pdf document
+    output: the cleaned corpus
+    
+    This function takes the given pdf file, extracts the image from each page,
+    scan the words and output it as a corpus after performing a preliminary 
+    text cleaning process.
+    """
     # converting the pdf file to image
     pages = convert_from_path("dasar_as.pdf", 500)
     counter = 1
