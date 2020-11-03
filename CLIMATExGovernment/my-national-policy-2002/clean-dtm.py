@@ -5,12 +5,6 @@ Author: Xiandi Ooi
 
 The Dasar Alam Sekitar is a bilingual document so further data cleaning proces
 is necessary before we can start analysing the document.
-
-The following code is modified from the following source:
-    Title: 2-Exploratory-Data-Analysis, NLP in Python Tutorial
-    Author: Alice Zhao
-    Date: 2018
-    Availability: https://github.com/adashofdata/nlp-in-python-tutorial/blob/master/2-Exploratory-Data-Analysis.ipynb
 """
 import nltk
 import pandas as pd
@@ -42,6 +36,13 @@ def clean_dtm(corpus):
     corpus_en_pd = pd.DataFrame.from_dict(corpus_en, orient = "index")
     corpus_en_pd.columns = ["page_content"] 
     
+    """
+    The following code is modified from the following source:
+    Title: 2-Exploratory-Data-Analysis, NLP in Python Tutorial
+    Author: Alice Zhao
+    Date: 2018
+    Availability: https://github.com/adashofdata/nlp-in-python-tutorial/blob/master/2-Exploratory-Data-Analysis.ipynb
+    """
     # remove common stopwords
     cv = CountVectorizer(stop_words="english")
     data_cv = cv.fit_transform(corpus_en_pd.page_content)
