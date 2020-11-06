@@ -81,6 +81,7 @@ def clean_dtm(corpus):
     # output
     pickle.dump(cv2, open("cv_clean.pkl", "wb"))
     dtm_clean.to_pickle("das-dtm.pkl")
+    corpus_en_pd.to_pickle("das-en-corpus.pkl")
 
 def main():    
     os.chdir(r"filepath")
